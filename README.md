@@ -1,6 +1,6 @@
 # 📚 Library Management System (C++)
 
-A robust, console-based Library Management System developed in **C++**. This project provides a comprehensive set of tools for librarians to manage book inventories, track borrowings, and maintain library statistics efficiently.
+A robust, console-based Library Management System developed in **C++**. This project provides a comprehensive set of tools for librarians to manage book inventories, track borrowings, and maintain library statistics efficiently through an interactive command-line interface.
 
 <img width="1057" height="480" alt="librarycpp" src="https://github.com/user-attachments/assets/cc14a388-6a6e-46e5-968e-542a1caa1992" />
 
@@ -20,9 +20,9 @@ The system offers 12 specialized functions to ensure complete control over the l
 ## 🛠️ Technical Implementation
 
 *   **Language**: C++ (Standard 11/14/17).
-*   **Paradigm**: Object-Oriented Programming (OOP) for clean and modular code.
-*   **Data Persistence**: Uses file handling (`fstream`) to save and load library data permanently.
-*   **Algorithm Efficiency**: Optimized search and counter logic for fast performance.
+*   **Paradigm**: Procedural Programming with structured data (Structs).
+*   **Memory Management**: Efficient use of arrays to manage and display book records in real-time.
+*   **Algorithm Efficiency**: Optimized search and counter logic for fast performance within the system.
 
 ## 🚀 Getting Started
 
@@ -37,7 +37,7 @@ The system offers 12 specialized functions to ensure complete control over the l
     ```
 2.  **Compile the Code**:
     ```bash
-    g++ main.cpp -o library_system
+    g++ main.cpp source.cpp -o library_system
     ```
 3.  **Run the Application**:
     ```bash
@@ -45,8 +45,9 @@ The system offers 12 specialized functions to ensure complete control over the l
     ```
 
 ## 🎮 How to Use
-Once launched, the system presents a numbered menu. Simply **enter the command number** (1-12) to execute the desired operation and follow the on-screen prompts.
+Once launched, the system presents a numbered menu. Simply **enter the command number** (1-12) to execute the desired operation and follow the on-screen prompts. 
+
+> **Note:** This version maintains all data in memory during the session.
 
 ---
 *Developed with a focus on logic and data organization.*
-
